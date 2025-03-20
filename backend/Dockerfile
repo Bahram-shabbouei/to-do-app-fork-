@@ -1,4 +1,4 @@
-FROM node:18-bullseye
+FROM node:22.14-alpin
 
 WORKDIR /app
 
@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 3050
 
-CMD ["node", "server.js"]
+CMD ["node", "server.js"]d
